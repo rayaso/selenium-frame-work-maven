@@ -5,12 +5,9 @@ import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.Status;
 import com.aventstack.extentreports.markuputils.ExtentColor;
 import com.aventstack.extentreports.markuputils.MarkupHelper;
-import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-import freemarker.template.SimpleDate;
 import org.apache.commons.io.FileUtils;
-import org.apache.poi.ss.usermodel.ExtendedColor;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -26,7 +23,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 //this generate more feauture and rich reports.
 
-public class GenerateExtentReports {
+public class GenerateExtentReportsScreenshot {
     public WebDriver driver;
     public ExtentSparkReporter spark;
     public ExtentReports extent;

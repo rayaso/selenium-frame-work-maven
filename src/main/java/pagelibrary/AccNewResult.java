@@ -5,12 +5,12 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Acc2Result extends SetupAcc {
+public class AccNewResult extends SetupAcc {
 
     @FindBy(xpath ="//ul[@class='woocommerce-error']//li")
     WebElement resultTerm;
 
-    public Acc2Result(){
+    public AccNewResult(){
         PageFactory.initElements(driver,this);
     }
 

@@ -31,7 +31,8 @@ public class BaseSetupTemplate extends Configuration {
         }
 
         driver.manage().window().maximize();
-        driver.get("https://automation.scaledupit.com");
+        driver.get("https://automation.scaledupit.com");//link of the page web
+
 
     }
 

@@ -11,7 +11,8 @@ public class TestSearch extends BaseSetupTemplate {
     @Test
     public void testSearchFunction() throws InterruptedException {
 
-        HomePage home = new HomePage();
+        HomePage home = new HomePage();/*THIS IS AN OBJECT FOR HOMRPAGE CLASS BECAUSE TO DO TEST WE
+        HAVE TO CALL ALL METHODE WITCH IS ALREADY DECLARED IN HOMEPAGE CLASS.*/
 
         Thread.sleep(3000);
 
