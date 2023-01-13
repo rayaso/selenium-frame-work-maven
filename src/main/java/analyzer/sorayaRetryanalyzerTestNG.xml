@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SorayaRetryFailedTest" verbose="1">
+    <listeners>
+        <listener class-name="analyzer.MyTransformerSoraya"></listener>
+
+
+    </listeners>
+
+    <test name="SorayaRetryMultipleTests">
+        <classes>
+            <class name="analyzer.RetryAnalyzerTest"></class>
+        </classes>
+    </test>
+
+
+</suite>

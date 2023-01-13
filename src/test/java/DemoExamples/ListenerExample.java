@@ -15,7 +15,8 @@ public class ListenerExample {
         DriverListeners listeners=new DriverListeners();
         eventDriver.register(listeners);
         eventDriver.get("https://google.com");
-        eventDriver.findElement(By.xpath("//div[@class='RNNXgb']")).sendKeys("HELLO");
+        eventDriver.findElement(By.xpath("//div[@class='RNNXgb']"))/*thi
+         is a path of an element in googl(search box)*/.sendKeys("HELLO");
         eventDriver.close();
         eventDriver.quit();
     }

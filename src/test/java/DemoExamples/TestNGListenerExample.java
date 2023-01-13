@@ -12,6 +12,7 @@ public class TestNGListenerExample {
 
     public void testAmazon(){
         System.out.println("this is amazon test");
+
         driver.get("https://amazon.com");
         driver.findElement(By.id("twotabsearchtextbox")).sendKeys("blinds");
         driver.quit();

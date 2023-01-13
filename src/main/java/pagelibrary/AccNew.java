@@ -62,7 +62,7 @@ public class AccNew extends SetupAcc {
         return new AccNewResult();*/
 
 
-    public AccNewResult doClick(String resultMessage){//this method is for the result after performing actions
+    public AccNewResult/*this is the class result name*/ doClick(String resultMessage){//this method is for the result after performing actions
       enterEmail("sonia.saidani15@gmail.com");
         enterPassword("password");
         //clickOnShowPassword();

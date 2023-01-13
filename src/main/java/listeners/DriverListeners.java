@@ -123,7 +123,8 @@ public class DriverListeners implements WebDriverEventListener {
 
     @Override
     public void onException(Throwable throwable, WebDriver driver) {
-        System.out.println("i encountered an exception" +throwable.getMessage());
+        System.out.println("i encountered an exception" +throwable.getMessage());/*throwable means
+        if you get an error just print this msg for me*/
 
     }
 

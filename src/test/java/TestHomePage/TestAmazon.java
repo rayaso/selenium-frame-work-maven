@@ -1,6 +1,7 @@
 package TestHomePage;
 
 import library.AmazonBaseSetup;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pagelibrary.AmazonBox;
 
@@ -17,7 +18,7 @@ public class TestAmazon extends AmazonBaseSetup {
         Thread.sleep(3000);
         TestResultAmazonBox sonia = amazon.clickOnSign();
         Thread.sleep(3000);
-         // Assert.assertEquals(resultAmazonBox.getClickedOnBox(),"text");
+        Assert.assertEquals(resultAmazonBox.getClickedOnBox(),"text");
 
     }
 }

@@ -1,13 +1,13 @@
 package TestHomePage;
 
-import library.BaseSetupTemplate;
+import datamodelExelWithRowsHashmap.DataModelExample;
+import library.BaseSetupTemplateWithWait;
 import org.testng.Assert;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import pagelibrary.HomePage;
 import pagelibrary.SearchResultPage;
 
-public class TestSearch extends BaseSetupTemplate {
+public class TestSearch extends BaseSetupTemplateWithWait {
     @Test
     public void testSearchFunction() throws InterruptedException {
 
@@ -23,6 +23,12 @@ public class TestSearch extends BaseSetupTemplate {
         Assert.assertEquals(resultPage.getSearchTerm(),"shirt");
 
         Thread.sleep(3000);
+        home.performAction();//i implement this methode witch is declared in homepage
+        Thread.sleep(3000);
+
+        DataModelExample obj=new DataModelExample();
+        /*obj.readXl("C:\\Users\\soray\\OneDrive\\Documents\\datamodel.xlsx").we implimented this methode
+        here */
     }
 
 

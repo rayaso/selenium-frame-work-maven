@@ -8,9 +8,9 @@ import java.util.Properties;
 public class ConfigAcc {
 
     public static Properties prop;
-    //src//main//resources//prop.properties.soraya(this is the path
+    //src//main//resources//prop.properties(this is the path
     String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator
-            + "resources" + File.separator + "prop.properties.soraya";
+            + "resources" + File.separator + "prop.properties";
 
     public ConfigAcc() {
 
