@@ -13,9 +13,9 @@ public class TestDress extends SetupDress {
 
         Thread.sleep(3000);
 
-        ResultHomePage resultPageSoraya = home.doSearch("shirt");
+       // ResultHomePage resultPageSoraya = home.doSearch("shirt");
         Thread.sleep(3000);
-resultPageSoraya.ClickOnShirtProduct();
+//resultPageSoraya.ClickOnShirtProduct();
         Thread.sleep(3000);
         /*Assert.assertEquals(resultPageSoraya.getDress(),"shirt");
 

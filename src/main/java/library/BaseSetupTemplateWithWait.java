@@ -56,6 +56,9 @@ public class BaseSetupTemplateWithWait extends Configuration {
         }
     }
 
+
+
+    //we have to use this methode every single time we need to inspect text(shirt word)in result page
     public String getTextInsideElement(WebElement element) {
 
         String text = element.getText();

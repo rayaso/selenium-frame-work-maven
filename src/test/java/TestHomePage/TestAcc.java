@@ -1,6 +1,7 @@
 package TestHomePage;
 
 import library.SetupAcc;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import pagelibrary.Acc;
 import pagelibrary.AccNew;
@@ -22,7 +23,7 @@ public class TestAcc extends SetupAcc {
         Thread.sleep(5000);
         AccNewResult register=RegisterClick.doClick("text");
         Thread.sleep(5000);
-
+       //Assert.assertEquals(register.resultClickedRegister(),"resultTerm");
 /*AccNewResult SS=RegisterClick.enterEmail("email");
         Thread.sleep(3000);
 AccNewResult FF=RegisterClick.enterPassword("password");

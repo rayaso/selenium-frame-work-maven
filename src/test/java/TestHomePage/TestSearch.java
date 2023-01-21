@@ -16,7 +16,10 @@ public class TestSearch extends BaseSetupTemplateWithWait {
 
         Thread.sleep(3000);
 
-       SearchResultPage resultPage= home.doSearch("shirt");
+       SearchResultPage resultPage= home.doSearch("shirt");/*to make a relation between 2
+       pages i have to write this methode witch means that iam assigning the action of (
+       home.dosearch )to result page ,in case i do not need to test other thing so i do not need
+       to create result page just test home page and calling its methode here*/
 
       Thread.sleep(3000);
 

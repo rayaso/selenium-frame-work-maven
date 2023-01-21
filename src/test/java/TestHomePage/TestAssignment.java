@@ -17,7 +17,7 @@ public class TestAssignment extends BaseSetupAss {
 
         Thread.sleep(3000);
 
-        Assert.assertEquals(sonia.resultClickedSubmit()/*this is last method in page result*/,"soraya");
+        Assert.assertEquals(sonia.resultClickedSubmit(),"soraya");
 
         Thread.sleep(3000);
     }

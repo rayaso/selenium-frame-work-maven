@@ -30,15 +30,23 @@ public class HomePageDress extends SetupDress {
     }
 
 
-    public ResultHomePage doSearch(String searchTerm) {
+    /*public ResultHomePage doSearch(String searchTerm) {
         enterSearchTerm(searchTerm);
         clickOnSearchButton();
-        return new ResultHomePage();
+        return new ResultHomePage();*/
+    //this methode is to continue testing elements in result pas if i need to continue testing
+    //i have to return a new page gere in this methode
+
+
+    //otherwise if i need to stop testing ,iust i want to test home page i have to whrite this
+    //methode
+    public void doSearch(String searchTerm) {
+        enterSearchTerm(searchTerm);
+        clickOnSearchButton();
+
+
     }
-
-
 }
-
 
 
 

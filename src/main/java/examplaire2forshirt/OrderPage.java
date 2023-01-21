@@ -15,12 +15,10 @@ public class OrderPage extends SetupDress{
         PageFactory.initElements(driver, this);
     }
 
-    public String result() {
+   /* public String result() {
 
-        return new String(String.valueOf(text));
+      return  //new String(String.valueOf(text));
+    }*/
+
+
     }
-
-
-
-
-}

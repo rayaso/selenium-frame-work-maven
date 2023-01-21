@@ -22,12 +22,12 @@ public class ExplicitWait {
         driver.manage().window().maximize();
 
         //explicit wait 1st type:
-      /* WebDriverWait WAIT=new WebDriverWait(driver, Duration.ofSeconds(5));
+       WebDriverWait WAIT=new WebDriverWait(driver, Duration.ofSeconds(5));
         WebElement cart =driver.findElement(By.id("nav-cart-count-container"));//cart of amazon.com
         WAIT.until(ExpectedConditions.elementToBeClickable(cart) );/*will only wait for the specofic
         element wish is mentioned soraya.we specifyed wich element,it is the oposit of implicit wait
         wich gonna look for evry driver element
-        cart.click();*/
+        cart.click();
 
 
 
@@ -35,7 +35,7 @@ public class ExplicitWait {
         in case we can not see the element in home page,exemple amazon create acount
          we have first click in sign up element in home page than selenium can test create account because
          now ti is visible for him  wich is inside sign up*/
-        WebDriverWait WAIT = new WebDriverWait(driver, Duration.ofSeconds(10));
+       // WebDriverWait WAIT = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement signupButton = WAIT.until(ExpectedConditions.visibilityOfElementLocated(By.id("createAccountSubmit")));
         signupButton.click();
 

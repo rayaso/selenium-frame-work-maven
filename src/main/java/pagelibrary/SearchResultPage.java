@@ -14,7 +14,10 @@ public class SearchResultPage extends BaseSetupTemplateWithWait {
 
 
 public String getSearchTerm(){
- return getTextInsideElement(searchedTerm);
+ return getTextInsideElement(searchedTerm);/*in this page iam not doing actionc(clicking or sending
+ keys)iam just returning (shirt)witch is a text witch is declared in base setup class thats all
+ evry single time iam returning just text i have to use that methode with inner html that all
+ baseclly with this methode iam ending my testing */
 }
 
 

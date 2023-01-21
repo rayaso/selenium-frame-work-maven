@@ -11,7 +11,8 @@ public class ConfigCart {
 
 
         public static Properties prop;
-        String path = System.getProperty("user.dir") + File.separator + "src" + File.separator + "main" + File.separator
+        String path = System.getProperty("user.dir") + File.separator + "src"
+                + File.separator + "main" + File.separator
                 + "resources" + File.separator + "prop.properties";
 
 
